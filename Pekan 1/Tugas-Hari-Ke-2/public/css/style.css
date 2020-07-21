@@ -1,0 +1,57 @@
+body{
+	background-image: url(../img/pattern.png);
+}
+
+section{
+    box-sizing: border-box;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: white;
+}
+
+body{
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+
+}
+
+#article-list{
+	/*margin-top: 40px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;*/
+	margin: 40px 20px 20px 20px;
+}
+h1{
+	text-align: center;
+}
+
+header{
+	background-color: white;
+	display: flex;
+	position: sticky;
+    top:0;
+}
+nav li{
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: blue;
+
+}
+nav{
+	margin-left: 800px;
+}
+
+
+
+
+footer{
+	padding: 1px;
+	color: white;
+	background-color: black;
+	text-align: center;
+
+
+}
