@@ -29,10 +29,11 @@ for(var i=1;i<=20;i++){
 
 //soal 3
 for(var i=1;i<=7;i++){
+    var a="";
     for(var j=0;j<i;j++){
-        process.stdout.write("#");
+        a+="#";
     }
-    console.log();
+    console.log(a);
 }
 
 //soal 4
