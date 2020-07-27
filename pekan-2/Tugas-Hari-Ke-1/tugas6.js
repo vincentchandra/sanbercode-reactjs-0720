@@ -122,7 +122,6 @@ class Clock{
 
     var secs = date.getSeconds();
     if (secs < 10) secs = '0' + secs;
-    this.template = 'h:m:s';
     var output = this.template
       .replace('h', hours)
       .replace('m', mins)
@@ -137,7 +136,7 @@ class Clock{
 
   start() {
     this.render();
-    this.timer = setInterval(this.render, 1000);
+    this.timer = setInterval(() => this.render(), 1000);
   }
 
 }
