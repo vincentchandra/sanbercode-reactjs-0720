@@ -17,7 +17,6 @@ console.log(hasilKali)
 
 // soal 3
 function introduce(name, age, address, hobby){
-    // return "Nama saya John, umur saya 30 tahun, alamat saya di jalan belum jadi, dan saya punya hobby yaitu Gaming!" 
     return ("Nama saya "+ name +", umur saya "+ age + " tahun, alamat saya di " + address + ", dan saya punya hobby yaitu " + hobby +"!");
 }
 var name = "John"
