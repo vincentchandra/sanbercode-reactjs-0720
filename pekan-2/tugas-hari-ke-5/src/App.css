@@ -1,0 +1,11 @@
+.app{
+  max-width: 500px;
+  padding: 30px;
+}
+
+.sub{
+  display: inline-block;
+  font-weight: bold;
+  width: 150px;
+  text-align: left;
+}
